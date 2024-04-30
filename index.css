@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.timer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timer > div > input {
+  padding: 10px 10px 0 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+  height: 50px;
+  font-size: 30px;
+  width: 60px;
+  background: #efe9e9;
+  border-radius: 10px;
+}
+
+.timer > div > input::-webkit-inner-spin-button,
+.timer > div > input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.actions > button {
+  padding: 10px;
+  width: 90px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.start {
+  background-color: rgb(66, 219, 66);
+  border: rgb(66, 219, 66);
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: rgb(49, 177, 49);
+}
+
+.reset {
+  background-color: rgb(247, 54, 54);
+  border: rgb(247, 54, 54);
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: rgb(219, 21, 21);
+}
+
+.pause {
+  background-color: rgb(98, 132, 233);
+  border: rgb(98, 132, 233);
+  cursor: pointer;
+}
+
+.pause:hover {
+  background-color: rgb(66, 114, 184);
+}

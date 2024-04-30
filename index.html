@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Countdown Timer</h1>
+      <div class="timer-container">
+        <form class="timer-form">
+          <div class="timer">
+            <div>
+              <label>Hours</label>
+              <input class="hour-input" type="number" placeholder="00" />
+            </div>
+            <div>
+              <label>Mins</label>
+              <input class="min-input" type="number" placeholder="00" />
+            </div>
+            <div>
+              <label>Secs</label>
+              <input class="sec-input" type="number" placeholder="00" />
+            </div>
+          </div>
+        </form>
+        <div class="actions">
+          <button class="start" type="button">Start</button>
+          <button class="pause" type="button">Pause</button>
+          <button class="reset" type="button">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
